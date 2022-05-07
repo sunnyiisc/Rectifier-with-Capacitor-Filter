@@ -3,6 +3,8 @@ Design of a Bridge Rectifier with Capacitor Filter for AC to DC Conversion
 
 ### Tasks:
 Designing the circuit given below:
+- Simulate the circuit with idealities and non-idealities.
+- Measure the power factor and compare the power factors for both cases.
 
 <img width="473" alt="rectifier_capacitor_filter_circuitsiagram" src="https://user-images.githubusercontent.com/47363228/167240367-8174c626-a2e4-4a4d-b3e7-d776300221ed.png">
 
@@ -64,3 +66,44 @@ Non-idealities considered are as follows:
 #### Input Current and Voltage Waveform:
 ![6](https://user-images.githubusercontent.com/47363228/167241503-15ec10b6-03a1-4f70-ba91-77409698a8b2.jpg)
 
+
+### Power Factor Calculations:
+
+<img src="https://render.githubusercontent.com/render/math?math={Power Factor = \frac{Real Power}{Reference Power}}#gh-light-mode-only">
+<img src="https://render.githubusercontent.com/render/math?math={\color{white}Power Factor = \frac{Real Power}{Reference Power}}#gh-dark-mode-only">
+
+<img src="https://render.githubusercontent.com/render/math?math={Real Power = \frac{1}{T}\int_{0}^{T} V\times I\, dt}#gh-light-mode-only">
+<img src="https://render.githubusercontent.com/render/math?math={\color{white}Real Power = \frac{1}{T}\int_{0}^{T} V\times I\, dt}#gh-dark-mode-only">
+
+<img src="https://render.githubusercontent.com/render/math?math={Reference Power = V_m \times \frac{I_m}{2}}#gh-light-mode-only">
+<img src="https://render.githubusercontent.com/render/math?math={\color{white}Reference Power = V_m \times \frac{I_m}{2}}#gh-dark-mode-only">
+
+Where, 
+- V<sub>m</sub> : Peak Voltage 
+- I<sub>m</sub> : Peak current 
+- V : Instantaneous Voltage 
+- I : Instantaneous Current 
+
+Reference Power is the power dissipated across a pure resistive load with the value of voltage and current maximum to be V<sub>m</sub> and I<sub>m</sub> respectively. 
+
+
+#### Power Factor without non-idealities:
+As per our data, 
+- V<sub>m</sub> = 20 V
+- I<sub>m</sub> = 5.2 A
+- V<sub>rms</sub> = 16 V
+- I<sub>rms</sub> = 0.64 A 
+- Real Power = 10 Watts (Design Basis) 
+- Reference Power = 52 W 
+- Power factor = 0.192 (Leading)
+
+
+#### Power Factor with non-idealities: 
+As per our data, 
+- V<sub>m</sub> = 20 V
+- I<sub>m</sub> = 4.8 A
+- V<sub>rms</sub> = 15.5 V
+- I<sub>rms</sub> = 0.645 A, 
+- Real Power = 10 Watts (Design Basis) 
+- Reference Power = 48 W 
+- Power factor = 0.208 (Leading)
