@@ -1,0 +1,3 @@
+*
+.tran 50us 100ms uic
+.include rectifier_capacitor_filter.net
