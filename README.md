@@ -66,7 +66,7 @@ Non-idealities considered are as follows:
 #### Input Current and Voltage Waveform:
 ![6](https://user-images.githubusercontent.com/47363228/167241503-15ec10b6-03a1-4f70-ba91-77409698a8b2.jpg)
 
-
+------------------------------
 ### Power Factor Calculations:
 
 <img src="https://render.githubusercontent.com/render/math?math={Power Factor = \frac{Real Power}{Reference Power}}#gh-light-mode-only">
