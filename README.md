@@ -88,7 +88,7 @@ Reference Power is the power dissipated across a pure resistive load with the va
 
 
 #### Power Factor without non-idealities:
-As per our data, 
+As per the data, 
 - V<sub>m</sub> = 20 V
 - I<sub>m</sub> = 5.2 A
 - V<sub>rms</sub> = 16 V
@@ -99,11 +99,11 @@ As per our data,
 
 
 #### Power Factor with non-idealities: 
-As per our data, 
+As per the data, 
 - V<sub>m</sub> = 20 V
 - I<sub>m</sub> = 4.8 A
 - V<sub>rms</sub> = 15.5 V
-- I<sub>rms</sub> = 0.645 A, 
+- I<sub>rms</sub> = 0.645 A
 - Real Power = 10 Watts (Design Basis) 
 - Reference Power = 48 W 
 - Power factor = 0.208 (Leading)
