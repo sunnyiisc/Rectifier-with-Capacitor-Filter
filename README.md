@@ -45,7 +45,7 @@ The Circuit can be simulated with spice, here I used gEDA for building the ciruc
 - Rms value of current, A    =  0.89
 
 
-#### Circuit Schematic without non-idealities:
+### Circuit Schematic without non-idealities:
 ![schematic_without non idealities](https://user-images.githubusercontent.com/47363228/167241120-6b4e75b2-e5c6-42bc-9eba-5d203c129de8.png)
 
 #### Input and Output Waveform:
@@ -54,7 +54,7 @@ The Circuit can be simulated with spice, here I used gEDA for building the ciruc
 #### Input Current wrt Voltage Waveform:
 ![3_5](https://user-images.githubusercontent.com/47363228/167241374-3eeb08b2-0166-4b38-8120-31c06be350c1.jpg)
 
-#### Circuit Schematic with non-idealities:
+### Circuit Schematic with non-idealities:
 Non-idealities considered are as follows:
 - ESR (Effective Series Resistance) of the capacitor is considered.
 - Inductive effect of the load is considered. (say 10mH)
